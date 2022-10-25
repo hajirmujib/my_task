@@ -1,0 +1,48 @@
+name: my_task
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.17.5 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  date_utils: ^0.2.0
+  flutter:
+    sdk: flutter
+  flutter_animated_dialog: ^2.0.1
+  flutter_svg: ^1.0.3
+  get: 4.6.5
+  horizontal_calendar: ^1.0.0
+  percent_indicator: ^4.2.2
+  scrollable_positioned_list: ^0.3.2
+  stop_watch_timer: ^2.0.0
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: HindiLight
+      fonts:
+        - asset: assets/fonts/Hind_Siliguri/HindSiliguri-Light.ttf
+    - family: HindiReg
+      fonts:
+        - asset: assets/fonts/Hind_Siliguri/HindSiliguri-Regular.ttf
+    - family: HindiMed
+      fonts:
+        - asset: assets/fonts/Hind_Siliguri/HindSiliguri-Medium.ttf
+    - family: HindiSemibold
+      fonts:
+        - asset: assets/fonts/Hind_Siliguri/HindSiliguri-SemiBold.ttf
+    - family: HindiBold
+      fonts:
+        - asset: assets/fonts/Hind_Siliguri/HindSiliguri-Bold.ttf
+
+  assets:
+    - assets/images/svg/
+    - assets/images/png/
+
+  uses-material-design: true
